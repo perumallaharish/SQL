@@ -224,7 +224,7 @@ INSERT INTO photo_tags(photo_id, tag_id) VALUES (1, 18), (1, 17), (1, 21), (1, 1
 select * from users;
 select * from photos;
 select * from follows;
-select count(*) from comments;
+select * from comments;
 select * from photo_tags;
 select * from tags;
 select * from likes;
